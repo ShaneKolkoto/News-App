@@ -7,7 +7,7 @@ React Native News application country based South Africa
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ShaneKolkoto/News-App.git
 ```
 
 Go to the project directory
@@ -22,20 +22,20 @@ Install dependencies
   npm install
 ```
 
-Start the server
+Start the App
 
 ```bash
-  npm run start
+  expo start
 ```
 
 
 ## Config Folder Variables
  - config.js 
-    - `DB_NAME`
-    - `DB_USER`
-    - `DB_PASSWORD`
-    - `DB_HOST`
-    - `DB_PORT`
+    - `API_KEY`
+    - `endpoint`
+    - `category`
+    - `country`
+    - `pageSize`
 
 ## Acknowledgements
 
